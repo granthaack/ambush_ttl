@@ -2571,26 +2571,32 @@ design rules under a new name.</description>
 <contactref element="IC9" pad="9"/>
 <contactref element="IC12" pad="12"/>
 <contactref element="IC33" pad="11"/>
+<contactref element="IC37" pad="5"/>
 <wire x1="20.08" y1="-889.19" x2="12.46" y2="-1011.19" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="3.81" x2="12.46" y2="-1011.19" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="-3.81" x2="3.81" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="64H">
 <contactref element="IC9" pad="8"/>
 <contactref element="IC11" pad="6"/>
 <contactref element="IC12" pad="1"/>
 <contactref element="IC33" pad="14"/>
+<contactref element="IC37" pad="3"/>
 <wire x1="20.08" y1="-946.81" x2="7.38" y2="-1018.81" width="0" layer="19" extent="1-1"/>
 <wire x1="22.62" y1="-889.19" x2="20.08" y2="-946.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.81" y1="3.81" x2="7.38" y2="-1018.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.54" y1="-3.81" x2="7.38" y2="-1018.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="128H">
 <contactref element="IC9" pad="11"/>
 <contactref element="V1" pad="13"/>
 <contactref element="IC11" pad="5"/>
 <contactref element="IC33" pad="1"/>
+<contactref element="IC37" pad="1"/>
 <wire x1="15" y1="-889.19" x2="17.54" y2="-946.81" width="0" layer="19" extent="1-1"/>
 <wire x1="14.73" y1="-847.19" x2="15" y2="-889.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.89" y1="-3.81" x2="17.54" y2="-946.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.62" y1="-3.81" x2="-8.89" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HRST">
 <contactref element="IC9" pad="2"/>
@@ -2610,7 +2616,9 @@ design rules under a new name.</description>
 <signal name="256H">
 <contactref element="V1" pad="9"/>
 <contactref element="IC11" pad="4"/>
+<contactref element="IC28" pad="13"/>
 <wire x1="24.89" y1="-847.19" x2="15" y2="-946.81" width="0" layer="19" extent="1-1"/>
+<wire x1="5.92" y1="-1809.19" x2="15" y2="-946.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="V1" pad="4"/>
@@ -2825,7 +2833,9 @@ design rules under a new name.</description>
 <signal name="GAME_VID">
 <contactref element="IC18" pad="3"/>
 <contactref element="IC18" pad="2"/>
+<contactref element="IC28" pad="10"/>
 <wire x1="12.46" y1="-1176.81" x2="9.92" y2="-1176.81" width="0" layer="19" extent="1-1"/>
+<wire x1="13.54" y1="-1809.19" x2="9.92" y2="-1176.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="IC18" pad="1"/>
@@ -3060,15 +3070,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="!256H">
 <contactref element="IC27" pad="1"/>
+<contactref element="IC28" pad="12"/>
+<wire x1="3.38" y1="-1795.81" x2="8.46" y2="-1809.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!128H">
 <contactref element="IC27" pad="2"/>
+<contactref element="IC37" pad="2"/>
+<wire x1="-5.08" y1="-3.81" x2="5.92" y2="-1795.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!64H">
 <contactref element="IC27" pad="4"/>
+<contactref element="IC37" pad="4"/>
+<wire x1="0" y1="-3.81" x2="11" y2="-1795.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!32H">
 <contactref element="IC27" pad="5"/>
+<contactref element="IC37" pad="6"/>
+<wire x1="5.08" y1="-3.81" x2="13.54" y2="-1795.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$72">
 <contactref element="IC24" pad="11"/>
@@ -3090,7 +3108,9 @@ design rules under a new name.</description>
 <signal name="!GH">
 <contactref element="IC24" pad="12"/>
 <contactref element="IC28" pad="2"/>
+<contactref element="IC36" pad="2"/>
 <wire x1="5.92" y1="-1816.81" x2="8.46" y2="-1525.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.08" y1="-3.81" x2="8.46" y2="-1525.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="IC29" pad="5"/>
@@ -3135,8 +3155,10 @@ design rules under a new name.</description>
 <contactref element="IC30" pad="1"/>
 <contactref element="IC28" pad="4"/>
 <contactref element="IC28" pad="5"/>
+<contactref element="IC36" pad="3"/>
 <wire x1="11" y1="-1816.81" x2="3.38" y2="-1955.81" width="0" layer="19" extent="1-1"/>
 <wire x1="13.54" y1="-1816.81" x2="11" y2="-1816.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.54" y1="-3.81" x2="3.38" y2="-1955.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$82">
 <contactref element="IC31" pad="1"/>
@@ -3237,6 +3259,21 @@ design rules under a new name.</description>
 <contactref element="IC36" pad="6"/>
 <contactref element="IC30" pad="11"/>
 <wire x1="5.08" y1="-3.81" x2="11" y2="-1948.19" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$98">
+<contactref element="IC36" pad="4"/>
+<contactref element="IC36" pad="8"/>
+<wire x1="0" y1="-3.81" x2="7.62" y2="3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$99">
+<contactref element="IC36" pad="1"/>
+<contactref element="IC36" pad="9"/>
+<wire x1="5.08" y1="3.81" x2="-7.62" y2="-3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$100">
+<contactref element="IC36" pad="10"/>
+<contactref element="IC28" pad="11"/>
+<wire x1="2.54" y1="3.81" x2="11" y2="-1809.19" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
