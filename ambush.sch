@@ -16392,8 +16392,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="556.26" y1="-40.64" x2="342.9" y2="-40.64" width="0.1524" layer="94" style="shortdash"/>
 <text x="528.32" y="-38.1" size="1.778" layer="94">Horizontal Source Board</text>
 <wire x1="642.62" y1="-40.64" x2="642.62" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="642.62" y1="-109.22" x2="449.58" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="642.62" y1="-109.22" x2="528.32" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
 <text x="617.22" y="-104.14" size="1.778" layer="94">Vertical Source Board</text>
+<wire x1="528.32" y1="-109.22" x2="449.58" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="449.58" y1="-109.22" x2="342.9" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="767.08" y1="71.12" x2="767.08" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="642.62" y1="-40.64" x2="556.26" y2="-40.64" width="0.1524" layer="94" style="shortdash"/>
@@ -16409,8 +16410,16 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
  schematic. </text>
 <wire x1="177.8" y1="-109.22" x2="177.8" y2="-218.44" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="177.8" y1="-218.44" x2="449.58" y2="-218.44" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="449.58" y1="-218.44" x2="449.58" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="449.58" y1="-218.44" x2="449.58" y2="-127" width="0.1524" layer="94" style="shortdash"/>
 <text x="180.34" y="-215.9" size="1.778" layer="94">Figure Board</text>
+<text x="452.12" y="-124.46" size="1.778" layer="94">Ambush TTL
+Based on schematics by David L. Heiserman
+from his book
+How to Design and Build Your Own Custom TV Games
+Modifications, corrections, and digitization performed by Grant Haack</text>
+<wire x1="449.58" y1="-127" x2="449.58" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="449.58" y1="-127" x2="528.32" y2="-127" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="528.32" y1="-127" x2="528.32" y2="-109.22" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="223.52" y="7.62"/>
