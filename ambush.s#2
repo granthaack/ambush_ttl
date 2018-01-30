@@ -16711,11 +16711,10 @@ Modifications, corrections, and digitization performed by Grant Haack</text>
 <instance part="IC37" gate="C" x="350.52" y="-208.28"/>
 <instance part="IC38" gate="A" x="391.16" y="-170.18"/>
 <instance part="IC37" gate="D" x="416.56" y="-170.18"/>
-<instance part="IC38" gate="B" x="662.94" y="-58.42"/>
-<instance part="IC37" gate="E" x="688.34" y="-58.42"/>
 <instance part="GND61" gate="1" x="693.42" y="-104.14"/>
 <instance part="IC37" gate="F" x="358.14" y="-157.48"/>
 <instance part="IC39" gate="A" x="365.76" y="-172.72"/>
+<instance part="IC37" gate="E" x="482.6" y="-99.06"/>
 </instances>
 <busses>
 </busses>
@@ -18158,12 +18157,10 @@ Modifications, corrections, and digitization performed by Grant Haack</text>
 <pinref part="IC17" gate="A" pin="I0"/>
 <wire x1="421.64" y1="-88.9" x2="406.4" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="V4" gate="/1" pin="!Q"/>
-</segment>
-<segment>
-<pinref part="IC38" gate="B" pin="I1"/>
-<wire x1="650.24" y1="-60.96" x2="647.7" y2="-60.96" width="0.1524" layer="91"/>
-<junction x="647.7" y="-60.96"/>
-<label x="647.7" y="-60.96" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC37" gate="E" pin="I"/>
+<wire x1="472.44" y1="-99.06" x2="406.4" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="-99.06" x2="406.4" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="406.4" y="-88.9"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -18644,12 +18641,6 @@ Modifications, corrections, and digitization performed by Grant Haack</text>
 <pinref part="IC21" gate="D" pin="I1"/>
 <wire x1="690.88" y1="55.88" x2="703.58" y2="55.88" width="0.1524" layer="91"/>
 <label x="690.88" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC38" gate="B" pin="I0"/>
-<wire x1="650.24" y1="-55.88" x2="647.7" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="647.7" y="-55.88"/>
-<label x="647.7" y="-55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -19247,8 +19238,9 @@ Modifications, corrections, and digitization performed by Grant Haack</text>
 </segment>
 <segment>
 <pinref part="IC37" gate="D" pin="O"/>
-<junction x="426.72" y="-170.18"/>
 <label x="429.26" y="-170.18" size="1.778" layer="95"/>
+<wire x1="426.72" y1="-170.18" x2="429.26" y2="-170.18" width="0.1524" layer="91"/>
+<junction x="429.26" y="-170.18"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -19274,35 +19266,13 @@ Modifications, corrections, and digitization performed by Grant Haack</text>
 <wire x1="716.28" y1="-76.2" x2="716.28" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$101" class="0">
-<segment>
-<pinref part="IC38" gate="B" pin="O"/>
-<pinref part="IC37" gate="E" pin="I"/>
-<wire x1="675.64" y1="-58.42" x2="678.18" y2="-58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$102" class="0">
-<segment>
-<pinref part="IC37" gate="E" pin="O"/>
-<wire x1="698.5" y1="-58.42" x2="698.5" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="698.5" y1="-68.58" x2="657.86" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="-68.58" x2="657.86" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="IC29" gate="A" pin="TR"/>
-<wire x1="657.86" y1="-81.28" x2="662.94" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="IC29" gate="A" pin="R"/>
-<wire x1="662.94" y1="-86.36" x2="662.94" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="662.94" y="-81.28"/>
-</segment>
-</net>
 <net name="!BDEAD" class="0">
 <segment>
-<pinref part="IC38" gate="A" pin="I0"/>
-<wire x1="378.46" y1="-167.64" x2="373.38" y2="-167.64" width="0.1524" layer="91"/>
-<junction x="373.38" y="-167.64"/>
 <label x="373.38" y="-165.1" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC37" gate="F" pin="O"/>
-<wire x1="368.3" y1="-157.48" x2="373.38" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="-157.48" x2="373.38" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="-157.48" x2="378.46" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="IC38" gate="A" pin="I0"/>
+<wire x1="378.46" y1="-157.48" x2="378.46" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -19310,6 +19280,23 @@ Modifications, corrections, and digitization performed by Grant Haack</text>
 <pinref part="IC38" gate="A" pin="I1"/>
 <pinref part="IC39" gate="A" pin="O"/>
 <wire x1="378.46" y1="-172.72" x2="375.92" y2="-172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!VRST" class="0">
+<segment>
+<pinref part="IC29" gate="A" pin="TR"/>
+<wire x1="657.86" y1="-81.28" x2="662.94" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="662.94" y="-81.28"/>
+<pinref part="IC29" gate="A" pin="R"/>
+<wire x1="662.94" y1="-86.36" x2="662.94" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="657.86" y="-81.28"/>
+<label x="657.86" y="-81.28" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="IC37" gate="E" pin="O"/>
+<wire x1="492.76" y1="-99.06" x2="495.3" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="495.3" y="-99.06"/>
+<label x="495.3" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
